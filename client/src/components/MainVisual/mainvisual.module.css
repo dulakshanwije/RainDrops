@@ -1,0 +1,46 @@
+.container {
+    height: 210px;
+    background-color: var(--dark-blue);
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    z-index: 20;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+img.worldMap {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    height: 100%;
+}
+
+.title {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2.7rem;
+    line-height: 120%;
+    text-align: center;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 0.76rem;
+    color: #fff;
+    line-height: 100%;
+}

@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+}
+
+form {
+    /* padding: 10px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputText {
+    background-color: #f5f5f5;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--light-grey);
+    padding: 10px 5px;
+}
+
+.inputText input {
+    width: 100%;
+    padding: 2px 5px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+}
+
+.inputText button {
+    padding: 2px;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText button img {
+    width: 20px;
+}

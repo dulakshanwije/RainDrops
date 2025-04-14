@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,800&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  --bg-color: #F5F5F5;
+  --dark-blue: #0D182E;
+  --light-blue: #1C325F;
+  --light-green: #32CD32;
+  --light-grey: #586E88;
+  --msg-green: #65DA65;
+  --msg-blue: #035A9D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
